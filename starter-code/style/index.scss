@@ -1,17 +1,21 @@
 body {
   background: black;
   color: white;
+  background-color: #0B0D17;
 
-  
+  nav {
+    font-family: 'Barlow Condensed', sans-serif;
+    border: 2px solid red;
+  }
+
   // Mini phone - Mobile    
   @media (min-width: 0px) and (max-width: 320px) {
-    background-color: yellow;
+    background-color: #0B0D17;
   }
 
   // Phone Only
-
   @media (min-width: 321px) and (max-width: 599px) {
-    background-color: aqua;
+  //  background-color: aqua;
   }
 
   // Tablet Only
@@ -21,13 +25,11 @@ body {
   }
 
   // Laptop Only
-
   @media (min-width: 769px) and (max-width: 1024px) {
     background-color: blueviolet;
   }
 
   // Desktop Up
-
   @media (min-width: 1025px) {
     background-color: brown;
   }
