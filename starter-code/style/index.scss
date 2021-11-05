@@ -1,4 +1,36 @@
 body {
   background: black;
   color: white;
+
+  
+  // Mini phone - Mobile    
+  @media (min-width: 0px) and (max-width: 320px) {
+    background-color: yellow;
+  }
+
+  // Phone Only
+
+  @media (min-width: 321px) and (max-width: 599px) {
+    background-color: aqua;
+  }
+
+  // Tablet Only
+
+  @media (min-width: 600px) and (max-width: 768px) {
+    background-color: blue;
+  }
+
+  // Laptop Only
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    background-color: blueviolet;
+  }
+
+  // Desktop Up
+
+  @media (min-width: 1025px) {
+    background-color: brown;
+  }
+
 }
+
