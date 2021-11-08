@@ -1,38 +1,54 @@
 body {
-  background: black;
-  color: white;
-  background-color: #0B0D17;
 
   nav {
     font-family: 'Barlow Condensed', sans-serif;
-    border: 2px solid red;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline;
+        a{
+          text-decoration: none;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  .title-init {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+
+  .description-index {
+    font-family: 'Cabin', sans-serif;
   }
 
   // Mini phone - Mobile    
   @media (min-width: 0px) and (max-width: 320px) {
-    background-color: #0B0D17;
+    background-color: red;
   }
 
-  // Phone Only
-  @media (min-width: 321px) and (max-width: 599px) {
-  //  background-color: aqua;
-  }
+  // // Phone Only
+  // @media (min-width: 321px) and (max-width: 599px) {
+  // //  background-color: aqua;
+  // }
 
-  // Tablet Only
+  // // Tablet Only
 
-  @media (min-width: 600px) and (max-width: 768px) {
-    background-color: blue;
-  }
+  // @media (min-width: 600px) and (max-width: 768px) {
+  //   background-color: blue;
+  // }
 
-  // Laptop Only
-  @media (min-width: 769px) and (max-width: 1024px) {
-    background-color: blueviolet;
-  }
+  // // Laptop Only
+  // @media (min-width: 769px) and (max-width: 1024px) {
+  //   background-color: blueviolet;
+  // }
 
-  // Desktop Up
-  @media (min-width: 1025px) {
-    background-color: brown;
-  }
+  // // Desktop Up
+  // @media (min-width: 1025px) {
+  //   background-color: brown;
+  // }
 
 }
 
