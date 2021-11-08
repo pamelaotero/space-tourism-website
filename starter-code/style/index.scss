@@ -1,5 +1,5 @@
 body {
-
+  background-color: #0B0D17;
   nav {
     font-family: 'Barlow Condensed', sans-serif;
     ul {
@@ -18,15 +18,21 @@ body {
 
   .title-init {
     font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+  }
+
+  .title {
+    color: #FFFFFF;
   }
 
   .description-index {
     font-family: 'Cabin', sans-serif;
+    color: #D0D6F9;
   }
 
   // Mini phone - Mobile    
   @media (min-width: 0px) and (max-width: 320px) {
-    background-color: red;
+  
   }
 
   // // Phone Only
